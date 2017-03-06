@@ -38,9 +38,13 @@ var Empty = (function (_super) {
         return false;
     };
     Empty.prototype.ifExists = function (f) {
+        // NOTHING TODO
     };
     Empty.prototype.orElse = function (elseValue) {
         return elseValue;
+    };
+    Empty.prototype.map = function (f) {
+        return Option.empty();
     };
     return Empty;
 }(Option));
@@ -64,7 +68,13 @@ var Some = (function (_super) {
     Some.prototype.orElse = function (elseValue) {
         return this.data;
     };
+    Some.prototype.map = function (f) {
+        return Option.option(f(this.data));
+    };
     return Some;
 }(Option));
-exports.default = Option;
+var option = Option.option;
+exports.option = option;
+var empty = Option.empty;
+exports.empty = empty;
 //# sourceMappingURL=option.js.map

@@ -2,9 +2,9 @@
   "name": "option.js",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/option.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/option.test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ikicha/option.js/issues"
   },
-  "homepage": "https://github.com/ikicha/option.js#readme"
+  "homepage": "https://github.com/ikicha/option.js#readme",
+  "devDependencies": {
+    "expect": "^1.20.2"
+  }
 }

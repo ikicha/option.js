@@ -4,6 +4,7 @@
   "description": "",
   "main": "./dist/option.js",
   "scripts": {
+    "build": "tsc",
     "test": "node test/option.test.js"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ikicha/option.js#readme",
   "devDependencies": {
-    "expect": "^1.20.2"
+    "expect": "^1.20.2",
+    "typescript": "^3.0.1"
   }
 }

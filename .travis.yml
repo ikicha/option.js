@@ -1,0 +1,8 @@
+language: nodejs
+cache: yarn
+
+before_script:
+  - yarn
+
+script:
+  - tsc

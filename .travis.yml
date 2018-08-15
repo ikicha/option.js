@@ -6,8 +6,6 @@ deploy:
   provider: releases
   api_key:
     secure: oSp75gs8ACuIxNXEyG8FPDwy4G3doWESg2OruB2DE7fWNO/s7SLNSrtCJW4uKP5l+oGWLaGQeliJ4Z5HSgTHbwM0VNsZ53zglGRvtYcc8vfz1pA/6fjxO280ouhkFK215O+rDHgOrFgDgthodVxkMmp0lAJDaiVdwYLLFJmiyjumuMiVqBOfmjEPgKe3/3Z4h3vkAQ5itbBKg2CJJEhi6uLyNLfiJjwMvpUaa69/1ACcRpW7X5dgFGeCtjA2oDmjMGtWBgb25A8ZAJqQx+tvLzs8GPjw4IBFEkdz1H7GcxNM1XJ/LwFj2V9OMsMIb+3hgBQ4eWvgdBhF5TlXFreSQ4ukHgnY4aiWZYLeqsZmvEWQQXQZf3fbWHRR94v04PEY+4emRf0VmvW/3T5+vBf2HkdIlDdSlFx8wGSVI5e85KKUmStm8v/0v6RueykeeAgmtIlb1ce+QRk6VwkL8mmkAV0InYTkHsRQmM2l36Imp+uCUO/9j9FynDyfb25SZlTu/tjDBwL/RjFj5Bhrs3M++cSMVgfUCIbugROuppti0dO13p4Hk2zVXtS5vndT/aMGQq6KhfF2iickyYmH++seFBUMfwaEKtkSIveoiir2Rai/19en4YxPBX/oUdnYNr+qpNv9yez2BrdmS4SIdRTb1U+bdxI62lvlWT6z7Jo5bOg=
-  file:
-  - dist/option.js
-  - dist/option.js.map
+  file: dist/option.js
   on:
     repo: ikicha/option.js
